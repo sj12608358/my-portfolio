@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="../assets/styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="main-content" type="boolean" value="true" -->
+</head>
+	
+	
+<body>
+<div id="container">
+  <header></header>
+  <nav>
+	<ul>
+		<li><a href="../pages/about.html">About</a></li>
+		<li><a href="../pages/blog.html">Blog</a></li>
+	  <li><a href="../pages/gallery.html">Gallery</a></li>
+		<li><a href="../pages/contact.html">Contact</a></li>
+    </ul>
+	</nav>
+  <!--Began Floated Elements-->
+  <aside><h3>I'm a student, a daughter, a sister, a cousin, who loves art.</h3>
+	<h3>Join me as I explore my love for art.</h3>
+	<h3>by Sharee Jackson</h3></aside>
+  <!-- TemplateBeginIf cond="_document['main-content']" --><!-- TemplateBeginEditable name="EditRegion3" -->
+  <main>
+    <h1>Page Title</h1>
+  </main>
+  <!-- TemplateEndEditable --><!-- TemplateEndIf -->  <!--End Floated Elements-->
+  <footer></footer>
+</div>	
+</body>
+</html>

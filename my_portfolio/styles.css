@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+body {
+    color:black;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 14pt;
+    background-image: url("images/paint.jpg");
+    background-size: cover;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+#container {
+    width: 768px;
+    height: auto;
+    background-color: rgba(255,255,255,1.00);
+	margin:auto;
+}
+/*Float the Aside so it displays next to Main.*/
+aside {
+    width: 150px;
+    height: 1596px;
+    float: left;
+    font-size: medium;
+    background-color: #DF62A6
+}
+	
+header {
+    width: 768px;
+    height: 250px;
+    background-color: #FFFFFF;
+    background-image: url("images/Asset 4.png");
+}
+main {
+    width: 598px;
+    height: 2500px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: white;
+}
+h1 {
+    color: black;
+    font-size: 73px;
+    text-decoration: underline;
+}
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 768px;
+    height: 50px;
+    background-color: #DF63A6;
+    float: none;
+    clear: both;
+}
+h1 {
+    font-family: tornac, "sans-serif;";
+    font-weight: 1800;
+    font-style: normal;
+    color: #CA4662;
+    font-size: 26pt;
+	width: 600px;
+}
+
+th,td{
+    background-color: #DEA0C2;
+    width: 600px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 5px solid #894B6E
+}
+p{
+    font-family: termina, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: px;
+}
+img {
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.floatLeft{
+	float:left;
+	
+}
+article {
+    margin-bottom: 30px;
+}
+nav {
+    width: 484px;
+    height: 41px;
+    position: fixed;
+    top: 0px;
+    background-color: #FFFFFF;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 81px;
+    margin: 0px 40px 0px 0px;
+    font-family: alkaline, sans-serif;
+    font-size: 20pt;
+}
+#container nav ul {
+    margin: auto;
+    width: 537px;
+}
+a:link {
+    color: #A67297;
+    text-decoration: none;
+	padding: 10px;
+}
+a:visited {
+    text-decoration: none;
+    color: #CB4864;
+}
+a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color: #A67297;
+	padding: 10px;
+	border-radius: 20px;
+}
+a:active {
+    text-decoration: none;
+    color: #E4A1AF;
+}.submit_btn   {
+    width: 160px;
+    height: 30px;
+    background-color: #EBA1D1;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.submit_btn:hover {
+ -webkit-box-shadow: 6px 6px 34px 5px #000000;
+    box-shadow: 6px 6px 34px 5px #000000;	
+	
+}
+.bio{
+    left-padding: 10px;
+    float: right;
+    width: 351px;
+}
+video {
+    width: 600px;
+    margin: auto;
+    height: 600px;
+}
+/*Rules the page will follow for Tablet-sized devices*/
+@media (max-width: 1024px){ 
+	#container {
+		width:768px;
+	}
+	header{
+		width:786px;
+	}
+	nav{
+		width:786px;
+	}
+	main{
+		width:598px;
+	}
+	footer{
+		width:786px;
+	}
+	.column{
+		margin:0px 20px 0px 25px
+	}
+}
+/*Rules the page will follow on mobile devices*/
+@media only screen and (max-width:375px){
+
+	#container {
+		width:300px;
+	}
+	header{
+		width:300px;
+		background-image:url("images/Asset 8.png");
+	}
+	nav{
+		width:300px;
+	 position: static;
+		height:200px;
+	}
+	main{
+		width:300px;
+	}
+	footer{
+    width: 261px;
+	}
+	aside{
+		display:none;
+	}
+	#container nav li {
+	display: list-item;
+	list-style-type: none;
+	float: none;
+	margin: 0px 0px 20px 0px;
+	width: 260px;
+	text-align: center;	
+	
+}
+	
+	#container nav ul {
+	width: 260px;
+}
+
+	nav a:link {
+	display: block;
+	width: 250px;
+	background-color:#C391AC;
+	color: white;
+	}
+	
+	nav a:visited {
+	text-decoration: none;
+	color:#CB4864;
+	}
+	nav a:hover{
+		text-decoration: none;
+	color:#E4A1AF;
+	}
+}
